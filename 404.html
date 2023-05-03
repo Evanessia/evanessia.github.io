@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Viacheslav Kusainov | Software Developer</title>
+        <link rel="icon" type="image/x-icon" href="hutao.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Viacheslav Kusainov">
+        <meta name="description" content="I'm Viacheslav Kusainov and this is my portfolio website.">
+        <meta name="keywords" content="Viacheslav Kusainov, software developer, back-end, web developer, gamedev, 3D artist, portfolio website">
+        <style>
+            body {
+                background-color: #f2f3f4;
+            }
+            @font-face {
+                font-family: halogen;
+                src: url(halogen.ttf);
+            }
+            h1, h3 {
+                text-align: center;
+                font-family: halogen;
+            }
+            button {
+                background-color: cyan;
+                border: none;
+                font-family: halogen;
+                padding: 21px 48px;
+                font-size: 28px;
+                margin: 2px 2px;
+                
+                cursor: pointer;
+            }
+            
+            p {
+                text-align: center;
+            }
+            
+            img.rotation {
+                animation: wrote 4s linear 0s infinite alternate;
+            }
+            
+            @keyframes wrote {
+                from {
+                    transform: rotate(-6deg);
+                }
+                to {
+                    transform: rotate(6deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Error 404.</h1>
+        <h3>Page not found.</h3>
+        
+        <p>
+            <img src="image.png" alt="animation" width="60%" class="rotation">
+        </p>
+        
+        <p>
+            <button onclick="window.location.href = 'https://evanessia.github.io'">Home Page</button>
+        </p>
+        
+    </body>
+</html>
